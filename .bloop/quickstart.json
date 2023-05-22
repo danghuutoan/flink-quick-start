@@ -1,0 +1,950 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "quickstart",
+        "directory": "/Users/toan/quickstart",
+        "workspaceDir": "/Users/toan/quickstart",
+        "sources": [
+            "/Users/toan/quickstart/src/main/java"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/Users/toan/quickstart/target/classes",
+            "/Users/toan/.m2/repository/org/apache/flink/flink-streaming-java/1.17.0/flink-streaming-java-1.17.0.jar",
+            "/Users/toan/.m2/repository/org/apache/flink/flink-core/1.17.0/flink-core-1.17.0.jar",
+            "/Users/toan/.m2/repository/org/apache/flink/flink-annotations/1.17.0/flink-annotations-1.17.0.jar",
+            "/Users/toan/.m2/repository/org/apache/flink/flink-metrics-core/1.17.0/flink-metrics-core-1.17.0.jar",
+            "/Users/toan/.m2/repository/org/apache/flink/flink-shaded-asm-9/9.3-16.1/flink-shaded-asm-9-9.3-16.1.jar",
+            "/Users/toan/.m2/repository/org/apache/flink/flink-shaded-jackson/2.13.4-16.1/flink-shaded-jackson-2.13.4-16.1.jar",
+            "/Users/toan/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar",
+            "/Users/toan/.m2/repository/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar",
+            "/Users/toan/.m2/repository/com/esotericsoftware/kryo/kryo/2.24.0/kryo-2.24.0.jar",
+            "/Users/toan/.m2/repository/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2.jar",
+            "/Users/toan/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar",
+            "/Users/toan/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar",
+            "/Users/toan/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar",
+            "/Users/toan/.m2/repository/org/apache/flink/flink-file-sink-common/1.17.0/flink-file-sink-common-1.17.0.jar",
+            "/Users/toan/.m2/repository/org/apache/flink/flink-runtime/1.17.0/flink-runtime-1.17.0.jar",
+            "/Users/toan/.m2/repository/org/apache/flink/flink-rpc-core/1.17.0/flink-rpc-core-1.17.0.jar",
+            "/Users/toan/.m2/repository/org/apache/flink/flink-rpc-akka-loader/1.17.0/flink-rpc-akka-loader-1.17.0.jar",
+            "/Users/toan/.m2/repository/org/apache/flink/flink-queryable-state-client-java/1.17.0/flink-queryable-state-client-java-1.17.0.jar",
+            "/Users/toan/.m2/repository/org/apache/flink/flink-hadoop-fs/1.17.0/flink-hadoop-fs-1.17.0.jar",
+            "/Users/toan/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar",
+            "/Users/toan/.m2/repository/org/apache/flink/flink-shaded-netty/4.1.82.Final-16.1/flink-shaded-netty-4.1.82.Final-16.1.jar",
+            "/Users/toan/.m2/repository/org/apache/flink/flink-shaded-zookeeper-3/3.7.1-16.1/flink-shaded-zookeeper-3-3.7.1-16.1.jar",
+            "/Users/toan/.m2/repository/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA.jar",
+            "/Users/toan/.m2/repository/org/apache/flink/flink-java/1.17.0/flink-java-1.17.0.jar",
+            "/Users/toan/.m2/repository/com/twitter/chill-java/0.7.6/chill-java-0.7.6.jar",
+            "/Users/toan/.m2/repository/org/apache/flink/flink-shaded-guava/30.1.1-jre-16.1/flink-shaded-guava-30.1.1-jre-16.1.jar",
+            "/Users/toan/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar",
+            "/Users/toan/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
+            "/Users/toan/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar",
+            "/Users/toan/.m2/repository/org/apache/flink/flink-clients/1.17.0/flink-clients-1.17.0.jar",
+            "/Users/toan/.m2/repository/org/apache/flink/flink-optimizer/1.17.0/flink-optimizer-1.17.0.jar",
+            "/Users/toan/.m2/repository/commons-cli/commons-cli/1.5.0/commons-cli-1.5.0.jar",
+            "/Users/toan/.m2/repository/org/apache/flink/flink-connector-kafka/1.17.0/flink-connector-kafka-1.17.0.jar",
+            "/Users/toan/.m2/repository/org/apache/flink/flink-connector-base/1.17.0/flink-connector-base-1.17.0.jar",
+            "/Users/toan/.m2/repository/org/apache/kafka/kafka-clients/3.2.3/kafka-clients-3.2.3.jar",
+            "/Users/toan/.m2/repository/org/apache/flink/flink-connector-files/1.17.0/flink-connector-files-1.17.0.jar",
+            "/Users/toan/.m2/repository/org/apache/flink/flink-shaded-force-shading/16.1/flink-shaded-force-shading-16.1.jar",
+            "/Users/toan/.m2/repository/org/apache/flink/flink-avro-confluent-registry/1.17.0/flink-avro-confluent-registry-1.17.0.jar",
+            "/Users/toan/.m2/repository/io/confluent/kafka-schema-registry-client/7.2.2/kafka-schema-registry-client-7.2.2.jar",
+            "/Users/toan/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.2.2/jackson-databind-2.13.2.2.jar",
+            "/Users/toan/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.2/jackson-annotations-2.13.2.jar",
+            "/Users/toan/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2.jar",
+            "/Users/toan/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar",
+            "/Users/toan/.m2/repository/io/confluent/common-utils/7.2.2/common-utils-7.2.2.jar",
+            "/Users/toan/.m2/repository/org/apache/flink/flink-avro/1.17.0/flink-avro-1.17.0.jar",
+            "/Users/toan/.m2/repository/org/apache/avro/avro/1.11.1/avro-1.11.1.jar"
+        ],
+        "out": "/Users/toan/quickstart/target",
+        "classesDir": "/Users/toan/quickstart/target/classes",
+        "resources": [
+            "/Users/toan/quickstart/src/main/resources"
+        ],
+        "java": {
+            "options": [
+                "-g",
+                "-target",
+                "1.8",
+                "-source",
+                "1.8",
+                "-encoding",
+                "UTF-8"
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework",
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "utest.runner.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    {
+                        "args": [
+                            "-v",
+                            "-a"
+                        ],
+                        "framework": {
+                            "names": [
+                                "com.novocode.junit.JUnitFramework"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Users/toan/Library/Java/JavaVirtualMachines/azul-11.0.15/Contents/Home",
+                "options": [
+                    
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.objenesis",
+                    "name": "objenesis",
+                    "version": "2.1",
+                    "artifacts": [
+                        {
+                            "name": "objenesis",
+                            "path": "/Users/toan/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar"
+                        },
+                        {
+                            "name": "objenesis",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-core",
+                    "version": "2.13.2",
+                    "artifacts": [
+                        {
+                            "name": "jackson-core",
+                            "path": "/Users/toan/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2.jar"
+                        },
+                        {
+                            "name": "jackson-core",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-queryable-state-client-java",
+                    "version": "1.17.0",
+                    "artifacts": [
+                        {
+                            "name": "flink-queryable-state-client-java",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-queryable-state-client-java/1.17.0/flink-queryable-state-client-java-1.17.0.jar"
+                        },
+                        {
+                            "name": "flink-queryable-state-client-java",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-queryable-state-client-java/1.17.0/flink-queryable-state-client-java-1.17.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-collections",
+                    "name": "commons-collections",
+                    "version": "3.2.2",
+                    "artifacts": [
+                        {
+                            "name": "commons-collections",
+                            "path": "/Users/toan/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar"
+                        },
+                        {
+                            "name": "commons-collections",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-text",
+                    "version": "1.10.0",
+                    "artifacts": [
+                        {
+                            "name": "commons-text",
+                            "path": "/Users/toan/.m2/repository/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar"
+                        },
+                        {
+                            "name": "commons-text",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.confluent",
+                    "name": "kafka-schema-registry-client",
+                    "version": "7.2.2",
+                    "artifacts": [
+                        {
+                            "name": "kafka-schema-registry-client",
+                            "path": "/Users/toan/.m2/repository/io/confluent/kafka-schema-registry-client/7.2.2/kafka-schema-registry-client-7.2.2.jar"
+                        },
+                        {
+                            "name": "kafka-schema-registry-client",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/io/confluent/kafka-schema-registry-client/7.2.2/kafka-schema-registry-client-7.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.avro",
+                    "name": "avro",
+                    "version": "1.11.1",
+                    "artifacts": [
+                        {
+                            "name": "avro",
+                            "path": "/Users/toan/.m2/repository/org/apache/avro/avro/1.11.1/avro-1.11.1.jar"
+                        },
+                        {
+                            "name": "avro",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/org/apache/avro/avro/1.11.1/avro-1.11.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-shaded-asm-9",
+                    "version": "9.3-16.1",
+                    "artifacts": [
+                        {
+                            "name": "flink-shaded-asm-9",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-shaded-asm-9/9.3-16.1/flink-shaded-asm-9-9.3-16.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-rpc-akka-loader",
+                    "version": "1.17.0",
+                    "artifacts": [
+                        {
+                            "name": "flink-rpc-akka-loader",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-rpc-akka-loader/1.17.0/flink-rpc-akka-loader-1.17.0.jar"
+                        },
+                        {
+                            "name": "flink-rpc-akka-loader",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-rpc-akka-loader/1.17.0/flink-rpc-akka-loader-1.17.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-shaded-guava",
+                    "version": "30.1.1-jre-16.1",
+                    "artifacts": [
+                        {
+                            "name": "flink-shaded-guava",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-shaded-guava/30.1.1-jre-16.1/flink-shaded-guava-30.1.1-jre-16.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-shaded-jackson",
+                    "version": "2.13.4-16.1",
+                    "artifacts": [
+                        {
+                            "name": "flink-shaded-jackson",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-shaded-jackson/2.13.4-16.1/flink-shaded-jackson-2.13.4-16.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-optimizer",
+                    "version": "1.17.0",
+                    "artifacts": [
+                        {
+                            "name": "flink-optimizer",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-optimizer/1.17.0/flink-optimizer-1.17.0.jar"
+                        },
+                        {
+                            "name": "flink-optimizer",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-optimizer/1.17.0/flink-optimizer-1.17.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-annotations",
+                    "version": "2.13.2",
+                    "artifacts": [
+                        {
+                            "name": "jackson-annotations",
+                            "path": "/Users/toan/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.2/jackson-annotations-2.13.2.jar"
+                        },
+                        {
+                            "name": "jackson-annotations",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.2/jackson-annotations-2.13.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-cli",
+                    "name": "commons-cli",
+                    "version": "1.5.0",
+                    "artifacts": [
+                        {
+                            "name": "commons-cli",
+                            "path": "/Users/toan/.m2/repository/commons-cli/commons-cli/1.5.0/commons-cli-1.5.0.jar"
+                        },
+                        {
+                            "name": "commons-cli",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/commons-cli/commons-cli/1.5.0/commons-cli-1.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-annotations",
+                    "version": "1.17.0",
+                    "artifacts": [
+                        {
+                            "name": "flink-annotations",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-annotations/1.17.0/flink-annotations-1.17.0.jar"
+                        },
+                        {
+                            "name": "flink-annotations",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-annotations/1.17.0/flink-annotations-1.17.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.logging.log4j",
+                    "name": "log4j-core",
+                    "version": "2.17.1",
+                    "artifacts": [
+                        {
+                            "name": "log4j-core",
+                            "path": "/Users/toan/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar"
+                        },
+                        {
+                            "name": "log4j-core",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-shaded-zookeeper-3",
+                    "version": "3.7.1-16.1",
+                    "artifacts": [
+                        {
+                            "name": "flink-shaded-zookeeper-3",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-shaded-zookeeper-3/3.7.1-16.1/flink-shaded-zookeeper-3-3.7.1-16.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-metrics-core",
+                    "version": "1.17.0",
+                    "artifacts": [
+                        {
+                            "name": "flink-metrics-core",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-metrics-core/1.17.0/flink-metrics-core-1.17.0.jar"
+                        },
+                        {
+                            "name": "flink-metrics-core",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-metrics-core/1.17.0/flink-metrics-core-1.17.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-core",
+                    "version": "1.17.0",
+                    "artifacts": [
+                        {
+                            "name": "flink-core",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-core/1.17.0/flink-core-1.17.0.jar"
+                        },
+                        {
+                            "name": "flink-core",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-core/1.17.0/flink-core-1.17.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.xerial.snappy",
+                    "name": "snappy-java",
+                    "version": "1.1.8.3",
+                    "artifacts": [
+                        {
+                            "name": "snappy-java",
+                            "path": "/Users/toan/.m2/repository/org/xerial/snappy/snappy-java/1.1.8.3/snappy-java-1.1.8.3.jar"
+                        },
+                        {
+                            "name": "snappy-java",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/org/xerial/snappy/snappy-java/1.1.8.3/snappy-java-1.1.8.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-lang3",
+                    "version": "3.12.0",
+                    "artifacts": [
+                        {
+                            "name": "commons-lang3",
+                            "path": "/Users/toan/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar"
+                        },
+                        {
+                            "name": "commons-lang3",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.guava",
+                    "name": "guava",
+                    "version": "30.1.1-jre",
+                    "artifacts": [
+                        {
+                            "name": "guava",
+                            "path": "/Users/toan/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar"
+                        },
+                        {
+                            "name": "guava",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-io",
+                    "name": "commons-io",
+                    "version": "2.11.0",
+                    "artifacts": [
+                        {
+                            "name": "commons-io",
+                            "path": "/Users/toan/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar"
+                        },
+                        {
+                            "name": "commons-io",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-file-sink-common",
+                    "version": "1.17.0",
+                    "artifacts": [
+                        {
+                            "name": "flink-file-sink-common",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-file-sink-common/1.17.0/flink-file-sink-common-1.17.0.jar"
+                        },
+                        {
+                            "name": "flink-file-sink-common",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-file-sink-common/1.17.0/flink-file-sink-common-1.17.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-avro",
+                    "version": "1.17.0",
+                    "artifacts": [
+                        {
+                            "name": "flink-avro",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-avro/1.17.0/flink-avro-1.17.0.jar"
+                        },
+                        {
+                            "name": "flink-avro",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-avro/1.17.0/flink-avro-1.17.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.lz4",
+                    "name": "lz4-java",
+                    "version": "1.8.0",
+                    "artifacts": [
+                        {
+                            "name": "lz4-java",
+                            "path": "/Users/toan/.m2/repository/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar"
+                        },
+                        {
+                            "name": "lz4-java",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-connector-files",
+                    "version": "1.17.0",
+                    "artifacts": [
+                        {
+                            "name": "flink-connector-files",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-connector-files/1.17.0/flink-connector-files-1.17.0.jar"
+                        },
+                        {
+                            "name": "flink-connector-files",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-connector-files/1.17.0/flink-connector-files-1.17.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-compress",
+                    "version": "1.21",
+                    "artifacts": [
+                        {
+                            "name": "commons-compress",
+                            "path": "/Users/toan/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar"
+                        },
+                        {
+                            "name": "commons-compress",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.logging.log4j",
+                    "name": "log4j-slf4j-impl",
+                    "version": "2.17.1",
+                    "artifacts": [
+                        {
+                            "name": "log4j-slf4j-impl",
+                            "path": "/Users/toan/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.17.1/log4j-slf4j-impl-2.17.1.jar"
+                        },
+                        {
+                            "name": "log4j-slf4j-impl",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.17.1/log4j-slf4j-impl-2.17.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.confluent",
+                    "name": "common-utils",
+                    "version": "7.2.2",
+                    "artifacts": [
+                        {
+                            "name": "common-utils",
+                            "path": "/Users/toan/.m2/repository/io/confluent/common-utils/7.2.2/common-utils-7.2.2.jar"
+                        },
+                        {
+                            "name": "common-utils",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/io/confluent/common-utils/7.2.2/common-utils-7.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twitter",
+                    "name": "chill-java",
+                    "version": "0.7.6",
+                    "artifacts": [
+                        {
+                            "name": "chill-java",
+                            "path": "/Users/toan/.m2/repository/com/twitter/chill-java/0.7.6/chill-java-0.7.6.jar"
+                        },
+                        {
+                            "name": "chill-java",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/com/twitter/chill-java/0.7.6/chill-java-0.7.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-shaded-force-shading",
+                    "version": "16.1",
+                    "artifacts": [
+                        {
+                            "name": "flink-shaded-force-shading",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-shaded-force-shading/16.1/flink-shaded-force-shading-16.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-runtime",
+                    "version": "1.17.0",
+                    "artifacts": [
+                        {
+                            "name": "flink-runtime",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-runtime/1.17.0/flink-runtime-1.17.0.jar"
+                        },
+                        {
+                            "name": "flink-runtime",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-runtime/1.17.0/flink-runtime-1.17.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-java",
+                    "version": "1.17.0",
+                    "artifacts": [
+                        {
+                            "name": "flink-java",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-java/1.17.0/flink-java-1.17.0.jar"
+                        },
+                        {
+                            "name": "flink-java",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-java/1.17.0/flink-java-1.17.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-shaded-netty",
+                    "version": "4.1.82.Final-16.1",
+                    "artifacts": [
+                        {
+                            "name": "flink-shaded-netty",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-shaded-netty/4.1.82.Final-16.1/flink-shaded-netty-4.1.82.Final-16.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.kafka",
+                    "name": "kafka-clients",
+                    "version": "3.2.3",
+                    "artifacts": [
+                        {
+                            "name": "kafka-clients",
+                            "path": "/Users/toan/.m2/repository/org/apache/kafka/kafka-clients/3.2.3/kafka-clients-3.2.3.jar"
+                        },
+                        {
+                            "name": "kafka-clients",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/org/apache/kafka/kafka-clients/3.2.3/kafka-clients-3.2.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-clients",
+                    "version": "1.17.0",
+                    "artifacts": [
+                        {
+                            "name": "flink-clients",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-clients/1.17.0/flink-clients-1.17.0.jar"
+                        },
+                        {
+                            "name": "flink-clients",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-clients/1.17.0/flink-clients-1.17.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-hadoop-fs",
+                    "version": "1.17.0",
+                    "artifacts": [
+                        {
+                            "name": "flink-hadoop-fs",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-hadoop-fs/1.17.0/flink-hadoop-fs-1.17.0.jar"
+                        },
+                        {
+                            "name": "flink-hadoop-fs",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-hadoop-fs/1.17.0/flink-hadoop-fs-1.17.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.esotericsoftware.kryo",
+                    "name": "kryo",
+                    "version": "2.24.0",
+                    "artifacts": [
+                        {
+                            "name": "kryo",
+                            "path": "/Users/toan/.m2/repository/com/esotericsoftware/kryo/kryo/2.24.0/kryo-2.24.0.jar"
+                        },
+                        {
+                            "name": "kryo",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/com/esotericsoftware/kryo/kryo/2.24.0/kryo-2.24.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.javassist",
+                    "name": "javassist",
+                    "version": "3.24.0-GA",
+                    "artifacts": [
+                        {
+                            "name": "javassist",
+                            "path": "/Users/toan/.m2/repository/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA.jar"
+                        },
+                        {
+                            "name": "javassist",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-avro-confluent-registry",
+                    "version": "1.17.0",
+                    "artifacts": [
+                        {
+                            "name": "flink-avro-confluent-registry",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-avro-confluent-registry/1.17.0/flink-avro-confluent-registry-1.17.0.jar"
+                        },
+                        {
+                            "name": "flink-avro-confluent-registry",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-avro-confluent-registry/1.17.0/flink-avro-confluent-registry-1.17.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.esotericsoftware.minlog",
+                    "name": "minlog",
+                    "version": "1.2",
+                    "artifacts": [
+                        {
+                            "name": "minlog",
+                            "path": "/Users/toan/.m2/repository/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2.jar"
+                        },
+                        {
+                            "name": "minlog",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "1.7.36",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "/Users/toan/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-rpc-core",
+                    "version": "1.17.0",
+                    "artifacts": [
+                        {
+                            "name": "flink-rpc-core",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-rpc-core/1.17.0/flink-rpc-core-1.17.0.jar"
+                        },
+                        {
+                            "name": "flink-rpc-core",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-rpc-core/1.17.0/flink-rpc-core-1.17.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.code.findbugs",
+                    "name": "jsr305",
+                    "version": "1.3.9",
+                    "artifacts": [
+                        {
+                            "name": "jsr305",
+                            "path": "/Users/toan/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-streaming-java",
+                    "version": "1.17.0",
+                    "artifacts": [
+                        {
+                            "name": "flink-streaming-java",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-streaming-java/1.17.0/flink-streaming-java-1.17.0.jar"
+                        },
+                        {
+                            "name": "flink-streaming-java",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-streaming-java/1.17.0/flink-streaming-java-1.17.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-connector-kafka",
+                    "version": "1.17.0",
+                    "artifacts": [
+                        {
+                            "name": "flink-connector-kafka",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-connector-kafka/1.17.0/flink-connector-kafka-1.17.0.jar"
+                        },
+                        {
+                            "name": "flink-connector-kafka",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-connector-kafka/1.17.0/flink-connector-kafka-1.17.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-math3",
+                    "version": "3.6.1",
+                    "artifacts": [
+                        {
+                            "name": "commons-math3",
+                            "path": "/Users/toan/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar"
+                        },
+                        {
+                            "name": "commons-math3",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.logging.log4j",
+                    "name": "log4j-api",
+                    "version": "2.17.1",
+                    "artifacts": [
+                        {
+                            "name": "log4j-api",
+                            "path": "/Users/toan/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar"
+                        },
+                        {
+                            "name": "log4j-api",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.luben",
+                    "name": "zstd-jni",
+                    "version": "1.5.2-1",
+                    "artifacts": [
+                        {
+                            "name": "zstd-jni",
+                            "path": "/Users/toan/.m2/repository/com/github/luben/zstd-jni/1.5.2-1/zstd-jni-1.5.2-1.jar"
+                        },
+                        {
+                            "name": "zstd-jni",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/com/github/luben/zstd-jni/1.5.2-1/zstd-jni-1.5.2-1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-databind",
+                    "version": "2.13.2.2",
+                    "artifacts": [
+                        {
+                            "name": "jackson-databind",
+                            "path": "/Users/toan/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.2.2/jackson-databind-2.13.2.2.jar"
+                        },
+                        {
+                            "name": "jackson-databind",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.2.2/jackson-databind-2.13.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-connector-base",
+                    "version": "1.17.0",
+                    "artifacts": [
+                        {
+                            "name": "flink-connector-base",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-connector-base/1.17.0/flink-connector-base-1.17.0.jar"
+                        },
+                        {
+                            "name": "flink-connector-base",
+                            "classifier": "sources",
+                            "path": "/Users/toan/.m2/repository/org/apache/flink/flink-connector-base/1.17.0/flink-connector-base-1.17.0-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}
